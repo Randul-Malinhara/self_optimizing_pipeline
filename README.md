@@ -1,4 +1,3 @@
-```markdown
 # Self-Optimizing Machine Learning Pipeline 🚀
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/your-repo/self-optimizing-pipeline)
@@ -28,7 +27,6 @@ This project implements an **end-to-end self-optimizing machine learning pipelin
 - **Evaluation:** Computing accuracy, precision, recall, confusion matrix, and F1-score.
 - **Logging & Experimentation:** Saving results and tracking performance over time.
 
----
 
 ## Project Structure
 ```
