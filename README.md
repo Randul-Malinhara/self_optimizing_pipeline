@@ -132,7 +132,32 @@ After running `pipeline_manager.py`, results are saved in `results/logs.txt`:
 
 ## Visualization
 
-The pipeline automatically generates a plot for the **confusion matrix**.
+The pipeline automatically generates a plot for the confusion matrix. Below is an example code snippet that creates a confusion matrix using Matplotlib and Seaborn:
+
+python
+Copy
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
+
+# Sample true and predicted labels
+y_true = [0, 1, 0, 1, 0, 1, 0, 0, 1, 1]
+y_pred = [0, 1, 0, 0, 0, 1, 1, 0, 1, 1]
+
+# Compute the confusion matrix
+cm = confusion_matrix(y_true, y_pred)
+labels = ['Negative', 'Positive']
+
+# Plotting the confusion matrix
+plt.figure(figsize=(6, 4))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=labels, yticklabels=labels)
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.title('Confusion Matrix Example')
+plt.tight_layout()
+plt.show()
+When you run this snippet locally, you'll see a plot.
 ---
 
 ## Customization & Extensions
