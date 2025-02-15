@@ -132,12 +132,7 @@ After running `pipeline_manager.py`, results are saved in `results/logs.txt`:
 
 ## Visualization
 
-The pipeline automatically generates a plot for the **confusion matrix**:
-
-<img src="https://user-images.githubusercontent.com/your-image-link.png" width="400" alt="Confusion Matrix Example">
-
-*Note: Replace the image link with your actual hosted image URL.*
-
+The pipeline automatically generates a plot for the **confusion matrix**.
 ---
 
 ## Customization & Extensions
