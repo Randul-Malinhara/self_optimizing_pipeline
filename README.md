@@ -134,8 +134,8 @@ After running `pipeline_manager.py`, results are saved in `results/logs.txt`:
 
 The pipeline automatically generates a plot for the confusion matrix. Below is an example code snippet that creates a confusion matrix using Matplotlib and Seaborn:
 
-python
-Copy
+```python
+
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -168,6 +168,7 @@ Enhance the pipeline further by:
 - **Exploring Different Feature Selection Methods:** Try methods like Mutual Information or Recursive Feature Elimination (RFE).
 - **Deploying as an API:** Convert the pipeline into a REST API using frameworks like **FastAPI** or **Flask**.
 - **Automating Data Collection:** Integrate with web scraping or real-time data sources.
+```
 
 ---
 
